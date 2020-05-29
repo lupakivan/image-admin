@@ -1,0 +1,11 @@
+.grid__item {
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.grid__add-button-wrapper {
+    text-align: center;
+    padding-bottom: 10px;
+}

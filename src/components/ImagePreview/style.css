@@ -1,0 +1,45 @@
+.overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay__tooltip {
+    opacity: 0;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    transition: opacity 0.2s linear;
+}
+
+.overlay__tooltip--is-visible {
+    opacity: 1;
+}
+
+.overlay__tooltip--position-top {
+    top: -40px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.overlay__tooltip--position-right {
+    top: 50%;
+    left: 105%;
+    /*right: -110px;*/
+}
+
+.overlay__tooltip--position-bottom {
+    bottom: -40px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.overlay__tooltip--position-left {
+    top: 50%;
+    right: 105%;
+    margin: 0 auto;
+}
